@@ -20,8 +20,8 @@ For simulation purposes, channel matrices generated  from [COST2100](https://iee
 #### 2) Organize Dataset
 Once dataset is downloaded, recommended to organize the folders as follows
 ```
-├── STNet  # The cloned STNetpytorch repository
-│   ├── stnetpytorch.py
+├── STNet  # The cloned pytorchSTNet repository
+│   ├── pytorchstnet.py
 ├── data  # The data folder
 │   ├── DATA_Htestin.mat
 │   ├── ...
@@ -31,7 +31,7 @@ Firstly, choose the compression ratio 1/4, 1/8, 1/16, 1/32 or 1/64 by populating
 
 Secondly, choose a scenario "indoor" or "outdoor" by assiging the variable **envir** the same.
 
-Finally run the file **STNetpytorch.py** to begin training...
+Finally run the file **pytorchSTNet.py** to begin training...
 
 ## Results
 Normalized Mean Square Error (NMSE) and  Floating-Point Operations per second (FLOPS) achieved by STNet for different compression ratios under different scenarios are tabulated below. 
